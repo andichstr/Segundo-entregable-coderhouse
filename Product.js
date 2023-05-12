@@ -1,4 +1,4 @@
-class Product{
+export class Product {
     constructor(title, description, price, thumbnail, code, stock) {
         if (!!title && !!description && !!price && !!thumbnail && !!code && !!stock) {
             this.id = null;
@@ -54,5 +54,3 @@ class Product{
         this.stock = stock;
     }
 }
-
-export default Product;

@@ -1,5 +1,5 @@
-import ProductManager from './ProductManager.js';
-import Product from './Product.js';
+import { ProductManager } from './ProductManager.js';
+import { Product } from './Product.js';
 import path from 'path';
 
 //Creacion de instancia de la clase ProductManager
